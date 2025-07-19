@@ -33,6 +33,13 @@ migrate_working_dir/
 .pub/
 /build/
 
+#config firebase & auto-gen files
+/android/app/google-services.json
+*.g.dart
+*.freezed.dart
+firebase.json
+lib/firebase_options.dart
+
 # Symbolication related
 app.*.symbols
 
